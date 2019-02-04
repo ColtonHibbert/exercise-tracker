@@ -1,10 +1,12 @@
 import React from 'react';
-import App from './App';
+import './home.css';
+import SignForm from './SignForm';
 
 const Home = (props) => {
 	return (
-			<div>
-				<h1> exercise tracker</h1>
+			<div className="w-100 h-100 flex">
+				<h1> Do You Even Lift</h1>
+				{props.children};
 			</div>
 		);
 }

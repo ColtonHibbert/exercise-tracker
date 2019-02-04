@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import Home from './Home.js';
+import Nav from './Nav.js';
+import SignForm from './SignForm.js';
+
+
 
 class App extends Component {
   constructor(props) {
@@ -12,7 +16,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Home />
+        <Home>
+          <Nav>
+            <SignForm />
+           </Nav>
+        </Home>
       </div>
     );
   }
