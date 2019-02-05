@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import Home from './Home.js';
-import Nav from './Nav.js';
-import SignForm from './SignForm.js';
+import HomeHeader from './components/homeheader/HomeHeader.js';
+import Nav from './components/nav/Nav.js';
+import SignForm from './components/signform/SignForm.js';
+import Title from './components/title/Title.js';
+import HomeCenter from './components/homecenter/HomeCenter.js';
+import SideContent from './components/sidecontent/SideContent.js';
 
 
 
@@ -15,14 +18,19 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
-        <Home>
+      <div className="vh-100 ">
+        <HomeHeader>
           <Nav>
             <SignForm />
-           </Nav>
-        </Home>
+          </Nav>
+          <Title />
+        </HomeHeader>
+        <HomeCenter>
+          <SideContent>
+          </SideContent>
+        </HomeCenter>
       </div>
-    );
+    )
   }
 }
 
