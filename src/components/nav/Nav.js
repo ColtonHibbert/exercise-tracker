@@ -2,7 +2,7 @@ import React from 'react';
 
 const Nav = (props) => {
 	return (
-		<div className="w-100  flex justify-end"> 
+		<div className="w-100 flex justify-end"> 
 			{props.children}
 		</div>
 		);

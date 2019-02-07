@@ -18,7 +18,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="vh-100 ">
+      <div className="vh-100 bg-orange">
         <HomeHeader>
           <Nav>
             <SignForm />
