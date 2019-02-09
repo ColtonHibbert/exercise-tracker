@@ -2,7 +2,7 @@ import React from 'react';
 
 const TimedExercises = (props) => {
 	return (
-		<div>
+		<div className="w-50 flex bg-blue">
 		</div>
 		);
 }

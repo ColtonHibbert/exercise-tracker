@@ -2,10 +2,8 @@ import React from 'react';
 
 const ExerciseCard = (props) => {
 	return (
-		<div>
-			<div> </div>
-			<div> </div>
-			<div> </div>
+		<div className="w-100 flex">
+			
 		</div>
 		);
 }
